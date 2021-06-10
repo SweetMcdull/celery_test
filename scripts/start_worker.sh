@@ -1,0 +1,1 @@
+celery -A celery_test worker -l info -c 8 -n worker@%h -Ofair
